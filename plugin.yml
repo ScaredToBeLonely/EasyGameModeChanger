@@ -1,0 +1,10 @@
+name: ScaredEasyGameModeSwitch
+version: 1.0
+main: tokyo.nikokingames.scaredeasygamemodechanger.Main
+commands:
+  gm:
+    usage: "/<command> 0<Survival>/1<Creative>/3<Spectator> [player]"
+    default: op
+    description: Switch GameMode easily.
+    permission: scared.gamemodeswitch
+    permission-message: You don't have permission to execute this command.
